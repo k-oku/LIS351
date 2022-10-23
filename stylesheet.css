@@ -1,0 +1,131 @@
+.main-navigation {
+    min-height: 20px;
+    padding-right: 10px;
+
+}
+
+.nav-item {
+    font-family: 'Proxima Nova', 'Segoe UI', sans-serif;
+    color: black;
+    font-weight: 800;
+
+}
+
+h1 {
+    font-family: 'Proxima Nova', sans-serif;
+    color: white;
+    padding-left: 40px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Proxima Nova', sans-serif;
+    color: white;
+    padding-left: 40px;
+}
+
+.title {
+    font-family: 'Proxima Nova', 'Segoe UI', sans-serif;
+    font-style: italic;
+    color: black;
+    font-size: 32px;
+    line-height: 0px;
+    font-weight: 800;
+}
+
+.subtitle {
+    font-family: 'Proxima Nova', 'Segoe UI', sans-serif;
+    font-style: italic;
+    color: black;
+    padding-bottom: 5px;
+    line-height: 0px;
+    padding-top: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightsteelblue;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Proxima Nova', 'Segoe UI', sans-serif;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+ol {
+    font-family: 'Proxima Nova', 'Segoe UI', sans-serif;
+    font-variant-caps: all-small-caps;
+    line-height: 150%;
+    padding-left: 60px;
+}
+
+nav {
+    padding-top: 30px;
+}
+
+.content {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.peachtober-background {
+    background-image: url(/images/Peachtober-Gradient.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.peach-links {
+    font-family: 'Proxima Nova', 'Segoe UI', sans-serif;
+    font-variant-caps: all-small-caps;
+    color:white;
+}
+
+
+/*mobile*/
+[class*="col-"] {
+    width: 100%;
+}
+
+/*desktop*/
+.row {
+    display: flex;
+    width: 100%
+}
+
+.col-4 {
+    flex: 33%;
+    width: 33%
+}
+
+.col-6 {
+    flex: 50%;
+}
+
+.col-8 {
+    flex: 66%;
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+    .row {
+        display: flex;
+        width: 100%;
+    }
+
+    .col-sm {
+        width: 100%;
+    }
+
+
+}
