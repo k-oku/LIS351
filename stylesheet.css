@@ -85,7 +85,7 @@ nav {
 }
 
 .peachtober-background {
-    background-image: url(/images/Peachtober-Gradient.jpg);
+    background-image: url(./images/Peachtober-Gradient.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
